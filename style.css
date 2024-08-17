@@ -1,7 +1,11 @@
 /*Phthalo Green background-color: #123524;*/
+/*Quinacridone rose light background-color: #e6456f;*/
+/*Quinacridone rose dark background-color: #c32474;*/
+/*Magic Mint color: #BEE9D4;*/
 
 body {
     margin: 0 50px 0 50px;
+    background-color: #123524;
 }
 
 nav {
@@ -10,6 +14,7 @@ nav {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    color: #BEE9D4;;
 }
 
 nav ul {
@@ -28,9 +33,30 @@ header {
     padding: 10px;
     margin-left: auto;
     text-align: center;
+    color: #BEE9D4;;
 }
 
 header img {
-    aspect-ratio: 4/4.5;
+    aspect-ratio: 1/0.8;
     width: 30%;
+    padding: 10px;
+    margin-right: 70%;
+}
+.intro p {
+    color: #BEE9D4;;
+}
+
+footer {
+    padding: 10px;
+    margin-left: auto;
+    text-align: center;
+    color: #BEE9D4;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 50%;
 }
