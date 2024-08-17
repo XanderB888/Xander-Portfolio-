@@ -26,5 +26,11 @@ nav li {
 
 header {
     padding: 10px;
-    margin-left: 33%;
+    margin-left: auto;
+    text-align: center;
+}
+
+header img {
+    aspect-ratio: 4/4.5;
+    width: 30%;
 }
