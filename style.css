@@ -46,6 +46,10 @@ header img {
     color: #BEE9D4;;
 }
 
+.intro h2 {
+    color: #e6456f;
+}
+
 footer {
     padding: 10px;
     margin-left: auto;
@@ -59,4 +63,16 @@ footer ul {
     justify-content: space-between;
     margin-left: auto;
     width: 50%;
+}
+
+
+.me {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.me img{
+    height: auto;
+    width: 25%;
 }
