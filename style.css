@@ -97,3 +97,6 @@ button {
     color: aqua;
 }
 
+.aboutP {
+    display: none;
+}

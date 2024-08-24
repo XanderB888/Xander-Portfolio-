@@ -45,8 +45,23 @@ const quotes = ["I played ice hockey for South Africas Senior Mens National team
         }
         
     }
-
-
-
-
 //Quote generator end
+
+//About me paragraph hide and show - start
+
+var div = document.getElementById('aboutP');
+var display = 0;
+
+function hideShow () {
+    if (display == 0)
+    {
+        div.style.display = 'block';
+        display = 1;
+    } else
+    {
+        div.style.display = 'none'
+        display = 0;
+    }
+}
+
+//About me paragraph hide and show - end
