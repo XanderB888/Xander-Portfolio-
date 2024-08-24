@@ -76,3 +76,24 @@ footer ul {
     height: auto;
     width: 25%;
 }
+
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
+button {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
+
+#xxx {
+    color: aqua;
+}
+
