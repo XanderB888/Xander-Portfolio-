@@ -29,6 +29,18 @@ nav li {
     padding: 20px;
 }
 
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+.me {
+    background-image:url(resources/XB\ Logo\ NobcgFInal.webp);
+    background-repeat: repeat;
+    background-size: 30%;
+    background-position: 10%;
+}
+
 header {
     padding: 10px;
     margin-left: auto;
