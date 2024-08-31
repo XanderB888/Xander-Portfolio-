@@ -4,8 +4,13 @@
 /*Magic Mint color: #BEE9D4;*/
 
 body {
-    margin: 0 50px 0 50px;
+    /* margin: 0 50px 0 50px; */
     background-color: #123524;
+    /* background-image: url(resources/forrestlab\ 5.webp); */
+    /* backdrop-filter: blur(3px);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0% 10%; */
 }
 
 nav {
@@ -34,6 +39,10 @@ nav li {
     width: 50px;
 }
 
+header {
+    background-image:url(resources/XB\ Logo\ NobcgFInal.webp);
+}
+
 .me {
     background-image:url(resources/XB\ Logo\ NobcgFInal.webp);
     background-repeat: repeat;
@@ -58,25 +67,15 @@ header img {
     color: #BEE9D4;;
 }
 
+.intro button {
+    background-color: #e6456f;
+    border-radius: 50px;
+    width: 5vw;
+}
+
 .intro h2 {
     color: #e6456f;
 }
-
-footer {
-    padding: 10px;
-    margin-left: auto;
-    text-align: center;
-    color: #BEE9D4;
-}
-
-footer ul {
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-between;
-    margin-left: auto;
-    width: 50%;
-}
-
 
 .me {
     display: inline-flex;
@@ -111,4 +110,24 @@ button {
 
 .aboutP {
     display: none;
+}
+
+footer {
+    border: solid black 5px;
+    border-radius: 20px;
+    width: 30vw;
+    margin: auto;
+    background-color: #e6456f;
+    padding: 10px;
+    text-align: center;
+    color: #BEE9D4;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    padding: 0;
 }
